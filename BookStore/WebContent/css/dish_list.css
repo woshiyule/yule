@@ -1,0 +1,14 @@
+
+
+.dish_div{
+	position: relative;
+	cursor: pointer;
+	height: 20%;
+	background-color:RGB(61,61,61);
+	transition: left 0.3s;
+	-moz-transition: left 0.3s; /* Firefox 4 */
+	-webkit-transition: height 0.3s; /* Safari 和 Chrome */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(RGB(50, 50, 50)), to(RGB(41,41,41)));  /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, RGB(50, 50, 50), RGB(41,41,41));   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, RGB(50, 50, 50), RGB(41,41,41)); 
+}

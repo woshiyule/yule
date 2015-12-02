@@ -1,0 +1,27 @@
+{
+	"order_list":[{
+		"name": "炸薯条",   
+		"id":  1,
+		"img": "potatochips.png",
+		"price": 6.45,
+		"number": 5
+	},{
+		"name": "炸油条",   
+		"id": 2,
+		"img": "oilstick.png",
+		"price": "2015-06-30",
+		"number": 4
+    },{
+		"name": "炸鸡腿",   
+		"id":  4,
+		"img": "chikenleg.png",
+		"price": 5,
+		"number": 3
+    },{
+		"name": "骨肉相连",   
+		"id": 5,
+		"img": "boneandflesh.png",
+		"price": 6.45,
+		"number": 6
+    }]
+}

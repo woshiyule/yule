@@ -1,0 +1,59 @@
+#filter_hint1{
+	position: absolute;
+	left: 20%;
+	top: 15%;
+}
+
+#filter_hint2{
+	position: absolute;
+	left: 58%;
+	top: 15%;
+}
+
+#price_min{
+	position: absolute;
+	left: 44%;
+	top: 15%;
+	width: 10%;
+}
+
+
+#price_max{
+	position: absolute;
+	left: 66%;
+	width: 10%;
+	top: 15%;
+}
+
+
+#filter_choice{
+	position: absolute;
+	font-size: 1em;
+	background-color: RGB(241, 241, 241);
+	color: #222222;
+	width: 100%;
+	height: 0%;
+	top: 100%;
+	overflow:hidden;
+	transition: height 0.2s;
+	-moz-transition: height 0.2s; /* Firefox 4 */
+	-webkit-transition: height 0.2s; /* Safari 和 Chrome */
+}
+
+#filter_go{
+	position: absolute;
+	background-color: RGB(241, 241, 241);
+	color: #222222;
+	width: 30%;
+	left: 35%;
+	height: 28%;
+	bottom: 10%;
+	overflow:hidden;
+	transition: height 0.2s;
+	-moz-transition: height 0.2s; /* Firefox 4 */
+	-webkit-transition: height 0.2s; /* Safari 和 Chrome */
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(RGB(255, 0, 40)), to(RGB(200, 0, 40)));  /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, RGB(255, 0, 40), RGB(200, 0, 40));   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, RGB(255, 0, 40), RGB(200, 0, 0)); 
+}
+

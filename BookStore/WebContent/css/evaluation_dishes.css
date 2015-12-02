@@ -1,0 +1,37 @@
+#evaluation_text
+{
+	position:absolute;
+	left:10%;
+	width:80%;
+	height: 16%;
+	top:7%;
+	color:black;
+}
+
+#evaluate_dishes
+{
+	position:absolute;
+	width:100%;
+}
+
+.dish_img
+{
+	position:absolute;
+	height:40%;
+	left:3%;
+	top:10%;
+}
+
+.evaluation_input
+{
+	position:absolute;
+	left:23%;
+	width:73%;
+	top:10%;
+	height:65%;
+	border: 0;
+}
+
+.shop_rating{
+	bottom: 10%;
+}

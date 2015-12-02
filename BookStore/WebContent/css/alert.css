@@ -1,0 +1,22 @@
+#alert{
+	position: fixed;
+	width: 50%;
+	left: 25%;
+	height: 30%;
+	top: 35%;
+	z-index: 20;
+	background-color: #ffffff;
+	color: #222222;
+	border: thin solid #555555;
+}
+
+#OK{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	height: 30%;
+	bottom: 0%;
+	z-index: 20;
+	background-color: #4e56ff;
+	color: #eeeeee;
+}

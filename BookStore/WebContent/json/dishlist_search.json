@@ -1,0 +1,17 @@
+{
+	"dishes":[{
+		"id":2,
+        "img": "oilstick.png",
+		"name": "炸油条",
+		"score": 3.2,
+		"price": 2.00,
+		"sell": 4000
+    },{
+		"id":3,
+        "img": "sweetpotato.png",
+		"name": "烤红薯",
+		"score": 5.0,
+		"price": 2.5,
+		"sell": 2000
+    }]
+}

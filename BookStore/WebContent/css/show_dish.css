@@ -1,0 +1,185 @@
+#set_font
+{
+	font-family:微软雅黑;
+}
+
+#show_dish_picture
+{
+	position:absolute;
+	width:100%;
+}
+
+#show_dish_info
+{
+	position:absolute;
+	width:100%;
+	height:20%;
+}
+
+#show_dish_name
+{
+	position:absolute;
+	left:5%;
+	top:10%;
+	font-size:1.5em;
+}
+
+#show_dish_rank0
+{
+	left:5%;
+	top:33%;
+}
+
+#show_dish_rank0 ul
+{
+	position:absolute;
+	left:5%;
+	top:33%;
+	width:30%;
+	margin:0px;
+	padding:0px;
+}
+
+#show_dish_rank0 li
+{
+	float:left;
+	width:20%;
+	height:100%;
+	text-indent:-9999px;
+	margin:0px;
+	background-color:blue;
+	background:url('star.png') no-repeat;
+}
+
+.show_dish_rank1
+{
+	left:5%;
+	top:33%;
+}
+
+.show_dish_rank0 ul
+{
+	position:absolute;
+	left:5%;
+	top:33%;
+	width:30%;
+	margin:0px;
+	padding:0px;
+}
+
+.show_dish_rank0 li
+{
+	float:left;
+	width:20%;
+	height:100%;
+	text-indent:-9999px;
+	margin:0px;
+	background-color:blue;
+	background:url('star.png') no-repeat;
+}
+
+#show_dish_sale_amount
+{
+	position:absolute;
+	left:35%;
+	top:33%;
+	color:#999999;
+}
+
+#show_dish_price
+{
+	position:absolute;
+	left:4%;
+	top:50%;
+	color:#FF0000;
+	font-size:1.5em;
+}
+
+#show_dish_order_amount
+{
+	position:absolute;
+	right:5%;
+	width:20%;
+	height:20%;
+	top:50%;
+	text-align:center;
+	color:#4E56FF;
+	font-size:1.5em;
+}
+
+#add_order_amount
+{
+	position:absolute;
+	height:100%;
+	right:0%;
+}
+
+#minus_order_amount
+{
+	position:absolute;
+	height:100%;
+	left:0%;
+}
+
+.show_dividing
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:10px;
+	background-color:#cccccc;
+	-webkit-box-shadow:1px 1px 1px #cccccc;
+	-moz-box-shadow:1px 1px 1px #cccccc;
+	box-shadow:1px 1px 1px #cccccc;
+}
+
+#show_dish_introduction_div
+{
+	position:absolute;
+	width:100%;
+	margin:0px;
+	margin:0px;
+}
+
+#show_dish_comment_div
+{
+	position:absolute;
+	width:100%;
+}
+
+#show_dish_introduction
+{
+	position:absolute;
+	top:50px;
+	left:5%;
+	width:90%;
+	word-wrap:break-word;
+}
+
+#show_dish_comments
+{
+	position:absolute;
+	top:50px;
+	left:5%;
+	width:90%;
+	word-wrap:break-word;
+}
+
+.show_dish_dividing
+{
+	width:90%;
+	left:5%;
+	position:absolute;
+	top:40px;
+	color:#eeeeee;
+	margin:-1px;
+	padding:0px;
+}
+
+.show_title
+{
+	position:absolute;
+	left:5%;
+	top:10px;
+	font-size:1.5em;
+}

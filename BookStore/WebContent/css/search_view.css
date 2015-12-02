@@ -1,0 +1,114 @@
+#search_view{
+	position: absolute; 
+	display: block; 
+	height: 100%; 
+	width: 100%; 
+	left: 100%; 
+	top: 0;
+	z-index: 4;
+	background-color:RGB(61,61,61);
+	overflow:hidden;
+	transition: left 0.25s;
+	-moz-transition: left 0.25s; /* Firefox 4 */
+	-webkit-transition: left 0.25s; /* Safari 和 Chrome */
+}
+
+#search_bar{
+	position: absolute; 
+	display: block; 
+	height: 8%; 
+	width: 100%; 
+	left: 0; 
+	top: 0;
+	z-index: 4;
+	background-color: #ffffff;
+}
+
+#search_input{
+	position:absolute;
+	width: 72%;
+	height: 50%;
+	left: 10%;
+	top: 25%;
+	border-radius: 5px;
+	border : 0px;
+	text-align: left;
+	text-indent: 10%;
+	background-color: #dddddd;
+}
+
+#search_image{
+	position:absolute;
+	height: 34%;
+	top: 32.4%;
+	left: 12%;
+	cursor:pointer;
+}
+
+#search_go{
+	position:absolute;
+	background-color: #4E56FF;
+	width: 12%;
+	height: 50%;
+	top: 25%;
+	right: 4%;
+	text-align: center;
+	cursor:pointer;
+	border-radius: 5px;
+}
+
+#hot_search{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	height: 20%;
+	top: 11%;
+	background-color: #ffffff;
+	color: #888888;
+	text-indent: 5%;
+}
+
+#hot_title{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 11%;
+	background-color: #ffffff;
+	color: #888888;
+	text-indent: 5%;
+}
+
+#hot_search_list{
+	position: absolute;
+	width: 100%;
+	height: 65%;
+	left: 0%;
+	bottom: 0%;
+	background-color: #ffffff;
+	color: #888888;
+	text-indent: 5%;
+}
+
+#search_list{
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	left: 0%;
+	top: 11%;
+	color: #888888;
+	display: none;
+}
+
+.hot_search_item{
+	position: relative;
+	color: #111111;
+	border: thin solid #aaaaaa;
+	text-indent: 0;
+	margin-left: 2%;
+	margin-top: 1.5%;
+	width: 30%;
+	text-align: center;
+	float: left;
+	border-radius: 6px;
+	cursor: pointer;
+}
